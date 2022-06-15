@@ -34,6 +34,6 @@ public class GoogleSearchResultPage extends Reusable_Annotations_Class{
         String[] arrayResult = result.split(" ");
         System.out.println("My search number is " + arrayResult[1]);
         logger.log(LogStatus.INFO,"My search number is " + arrayResult[1]);
-    }//end of google search button
+    }//end of capture method
 
 }//end of class

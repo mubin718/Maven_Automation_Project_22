@@ -23,5 +23,15 @@ public class BaseClass extends Reusable_Annotations_Class{
         return  googleSearchResultPage;
     }//end of googleSearchResultPage method
 
+    public static SchwabHomePage schwabHomePage(){
+        SchwabHomePage schwabHomePage = new SchwabHomePage(driver);
+        return schwabHomePage;
+    }//end of schwabHomePage method
 
-}
+    public static SchwabFindABranchPage schwabFindABranchPage(){
+        SchwabFindABranchPage schwabFindABranchPage = new SchwabFindABranchPage(driver);
+        return schwabFindABranchPage;
+    }//end of schwabFindABranchPage method
+
+
+}//end of base class

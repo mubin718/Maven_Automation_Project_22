@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Smoke Suite Test" parallel="none">
+    <test name="SchwabSite">
+        <classes>
+            <class name="ActionItem_Project.UC_01_POM"/>
+            <class name="ActionItem_Project.UC_02_POM"/>
+            <class name="ActionItem_Project.UC_03_POM"/>
+            <class name="ActionItem_Project.UC_04_POM"/>
+            <class name="ActionItem_Project.UC_05_POM"/>
+        </classes>
+    </test>
+</suite>
+
